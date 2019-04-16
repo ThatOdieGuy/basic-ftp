@@ -2,10 +2,9 @@
   "name": "basic-ftp",
   "version": "3.4.4",
   "description": "FTP client for Node.js, supports explicit FTPS over TLS, IPv6, Async/Await, and Typescript.",
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "src/index",
   "files": [
-    "dist/**/*"
+    "src/**/*"
   ],
   "scripts": {
     "prepublishOnly": "npm run clean && npm run lint && tsc && mocha",
